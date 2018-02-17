@@ -1,5 +1,3 @@
-import tempfile
-
 import pandas as pd
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
@@ -58,7 +56,7 @@ def main(argv):
                           tf.feature_column.numeric_column('recoveries'),
                           tf.feature_column.numeric_column('collection_recovery_fee')]
 
-    model_dir = tempfile.mkdtemp()
+    model_dir = "model_dir"
 
     model = tf.estimator.LinearClassifier(model_dir=model_dir, feature_columns=my_feature_columns, n_classes=6)
 

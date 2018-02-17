@@ -107,3 +107,4 @@ venv.bak/
 
 .idea/
 clean_data.csv
+model_dir
