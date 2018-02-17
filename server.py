@@ -1,4 +1,3 @@
-import Main
 import argparse
 import json
 import time
@@ -7,6 +6,8 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 from flask import Flask, request
+
+import Main
 
 ##################################################
 # API part
@@ -88,7 +89,6 @@ def gen_dict(x_in):
 
 def eval_input_fn(inputs):
     df = pd.DataFrame(gen_dict(inputs), index=[0])
-    print(df.dtypes)
     input_fn = tf.estimator.inputs.pandas_input_fn(
         x=df,
         y=None,
