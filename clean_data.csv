@@ -1,0 +1,501 @@
+,loan_status,Principal,terms,past_due_days,age,education,Gender
+0,0,1000,30,0.0,45,High School or Below,male
+1,0,1000,30,0.0,50,Bechalor,female
+2,0,1000,30,0.0,33,Bechalor,female
+3,0,1000,15,0.0,27,college,male
+4,0,1000,30,0.0,28,college,female
+5,0,300,7,0.0,35,Master or Above,male
+6,0,1000,30,0.0,29,college,male
+7,0,1000,30,0.0,36,college,male
+8,0,1000,30,0.0,28,college,male
+9,0,800,15,0.0,26,college,male
+10,0,300,7,0.0,29,college,male
+11,0,1000,15,0.0,39,High School or Below,male
+12,0,1000,30,0.0,26,college,male
+13,0,900,7,0.0,26,college,female
+14,0,1000,7,0.0,27,High School or Below,male
+15,0,800,15,0.0,26,college,male
+16,0,1000,30,0.0,40,High School or Below,male
+17,0,1000,15,0.0,32,High School or Below,male
+18,0,1000,30,0.0,32,High School or Below,male
+19,0,800,30,0.0,26,college,male
+20,0,1000,30,0.0,26,college,male
+21,0,1000,30,0.0,43,High School or Below,female
+22,0,1000,30,0.0,25,High School or Below,male
+23,0,1000,15,0.0,26,college,male
+24,0,1000,30,0.0,26,college,male
+25,0,1000,30,0.0,29,High School or Below,male
+26,0,800,15,0.0,39,Bechalor,male
+27,0,1000,15,0.0,34,Bechalor,male
+28,0,1000,30,0.0,31,college,male
+29,0,1000,30,0.0,33,college,male
+30,0,800,15,0.0,33,High School or Below,male
+31,0,1000,30,0.0,37,college,male
+32,0,1000,30,0.0,27,college,male
+33,0,1000,30,0.0,37,college,male
+34,0,800,15,0.0,33,college,male
+35,0,800,15,0.0,29,Bechalor,male
+36,0,1000,30,0.0,27,High School or Below,male
+37,0,700,15,0.0,33,High School or Below,male
+38,0,1000,15,0.0,24,college,male
+39,0,1000,30,0.0,21,Bechalor,male
+40,0,1000,15,0.0,32,college,female
+41,0,800,15,0.0,30,college,male
+42,0,1000,7,0.0,31,Bechalor,male
+43,0,1000,15,0.0,30,college,male
+44,0,1000,15,0.0,24,Bechalor,female
+45,0,800,7,0.0,35,High School or Below,male
+46,0,1000,30,0.0,22,High School or Below,male
+47,0,1000,30,0.0,32,college,male
+48,0,1000,30,0.0,32,Bechalor,male
+49,0,800,15,0.0,50,High School or Below,male
+50,0,800,15,0.0,27,college,female
+51,0,1000,30,0.0,35,Bechalor,female
+52,0,800,15,0.0,35,Bechalor,female
+53,0,1000,30,0.0,34,High School or Below,male
+54,0,1000,30,0.0,21,High School or Below,male
+55,0,1000,15,0.0,25,college,male
+56,0,1000,30,0.0,27,High School or Below,male
+57,0,1000,30,0.0,26,Bechalor,male
+58,0,800,15,0.0,44,High School or Below,female
+59,0,800,15,0.0,39,Master or Above,male
+60,0,1000,30,0.0,34,Bechalor,male
+61,0,1000,15,0.0,37,college,male
+62,0,1000,30,0.0,34,High School or Below,male
+63,0,1000,30,0.0,45,college,male
+64,0,800,15,0.0,24,High School or Below,male
+65,0,900,15,0.0,28,college,male
+66,0,1000,30,0.0,28,Bechalor,male
+67,0,1000,30,0.0,37,High School or Below,male
+68,0,300,7,0.0,35,college,male
+69,0,1000,30,0.0,43,Bechalor,male
+70,0,800,15,0.0,29,college,male
+71,0,800,15,0.0,29,High School or Below,male
+72,0,1000,30,0.0,33,Bechalor,female
+73,0,1000,15,0.0,34,college,male
+74,0,1000,15,0.0,25,college,male
+75,0,1000,30,0.0,30,High School or Below,male
+76,0,1000,30,0.0,31,Bechalor,male
+77,0,1000,30,0.0,35,college,male
+78,0,1000,30,0.0,37,college,female
+79,0,1000,30,0.0,44,High School or Below,female
+80,0,1000,30,0.0,28,High School or Below,male
+81,0,1000,7,0.0,25,college,male
+82,0,1000,15,0.0,29,college,male
+83,0,800,15,0.0,33,college,male
+84,0,1000,30,0.0,37,High School or Below,female
+85,0,1000,30,0.0,33,college,male
+86,0,1000,30,0.0,24,High School or Below,female
+87,0,1000,30,0.0,27,college,female
+88,0,800,15,0.0,43,Bechalor,male
+89,0,800,15,0.0,46,High School or Below,female
+90,0,800,15,0.0,34,college,female
+91,0,1000,7,0.0,32,Bechalor,female
+92,0,800,15,0.0,38,High School or Below,male
+93,0,800,15,0.0,27,High School or Below,male
+94,0,1000,30,0.0,33,High School or Below,male
+95,0,1000,30,0.0,36,college,male
+96,0,1000,15,0.0,26,High School or Below,male
+97,0,1000,30,0.0,34,college,male
+98,0,1000,30,0.0,22,High School or Below,male
+99,0,1000,30,0.0,31,Bechalor,female
+100,0,1000,7,0.0,29,High School or Below,male
+101,0,800,15,0.0,38,college,male
+102,0,1000,30,0.0,30,college,male
+103,0,1000,15,0.0,45,High School or Below,male
+104,0,1000,15,0.0,35,college,male
+105,0,1000,30,0.0,30,college,male
+106,0,1000,30,0.0,31,High School or Below,male
+107,0,1000,30,0.0,31,High School or Below,male
+108,0,1000,30,0.0,28,college,male
+109,0,1000,7,0.0,29,college,male
+110,0,800,15,0.0,29,college,male
+111,0,1000,30,0.0,27,college,female
+112,0,1000,30,0.0,27,college,male
+113,0,1000,30,0.0,33,college,male
+114,0,1000,30,0.0,28,college,male
+115,0,1000,15,0.0,25,High School or Below,male
+116,0,1000,30,0.0,40,college,male
+117,0,1000,30,0.0,23,High School or Below,male
+118,0,1000,30,0.0,35,Bechalor,male
+119,0,800,15,0.0,24,college,male
+120,0,1000,30,0.0,34,college,male
+121,0,1000,30,0.0,22,High School or Below,male
+122,0,1000,15,0.0,20,college,male
+123,0,1000,15,0.0,23,college,male
+124,0,1000,30,0.0,33,college,male
+125,0,1000,30,0.0,26,college,male
+126,0,1000,15,0.0,28,High School or Below,male
+127,0,800,15,0.0,43,High School or Below,male
+128,0,1000,15,0.0,34,Bechalor,male
+129,0,1000,30,0.0,38,Bechalor,male
+130,0,1000,15,0.0,26,High School or Below,male
+131,0,800,15,0.0,43,High School or Below,male
+132,0,1000,30,0.0,26,High School or Below,male
+133,0,1000,30,0.0,33,college,female
+134,0,800,15,0.0,24,college,male
+135,0,1000,30,0.0,30,High School or Below,male
+136,0,800,15,0.0,32,High School or Below,female
+137,0,1000,15,0.0,22,college,male
+138,0,1000,15,0.0,47,High School or Below,male
+139,0,1000,30,0.0,20,High School or Below,male
+140,0,1000,30,0.0,28,High School or Below,male
+141,0,800,15,0.0,35,college,male
+142,0,1000,7,0.0,27,High School or Below,male
+143,0,800,15,0.0,33,college,female
+144,0,1000,30,0.0,30,High School or Below,male
+145,0,1000,15,0.0,31,college,male
+146,0,1000,30,0.0,26,college,female
+147,0,300,7,0.0,37,Master or Above,male
+148,0,1000,15,0.0,26,Bechalor,male
+149,0,800,15,0.0,35,Bechalor,male
+150,0,1000,15,0.0,29,college,male
+151,0,800,15,0.0,23,college,male
+152,0,500,15,0.0,23,college,female
+153,0,1000,15,0.0,30,college,male
+154,0,1000,30,0.0,34,college,male
+155,0,1000,30,0.0,36,High School or Below,female
+156,0,1000,15,0.0,26,Bechalor,male
+157,0,800,15,0.0,29,High School or Below,male
+158,0,1000,15,0.0,28,college,female
+159,0,1000,30,0.0,27,High School or Below,male
+160,0,1000,15,0.0,24,High School or Below,male
+161,0,800,15,0.0,31,Bechalor,male
+162,0,1000,30,0.0,28,High School or Below,male
+163,0,1000,15,0.0,27,college,female
+164,0,1000,15,0.0,25,High School or Below,male
+165,0,1000,30,0.0,24,High School or Below,male
+166,0,1000,30,0.0,28,college,male
+167,0,800,30,0.0,28,college,male
+168,0,1000,15,0.0,35,High School or Below,male
+169,0,1000,30,0.0,38,college,male
+170,0,1000,15,0.0,38,High School or Below,male
+171,0,1000,30,0.0,29,college,male
+172,0,800,15,0.0,35,High School or Below,male
+173,0,1000,30,0.0,24,college,male
+174,0,800,15,0.0,39,High School or Below,male
+175,0,800,15,0.0,25,college,male
+176,0,1000,30,0.0,38,High School or Below,male
+177,0,1000,30,0.0,30,college,male
+178,0,1000,30,0.0,21,High School or Below,male
+179,0,1000,30,0.0,46,college,male
+180,0,1000,15,0.0,31,High School or Below,female
+181,0,300,7,0.0,29,High School or Below,male
+182,0,1000,30,0.0,35,High School or Below,male
+183,0,800,15,0.0,30,High School or Below,male
+184,0,1000,30,0.0,27,High School or Below,male
+185,0,1000,30,0.0,31,High School or Below,female
+186,0,1000,30,0.0,33,Bechalor,male
+187,0,1000,15,0.0,34,High School or Below,male
+188,0,800,15,0.0,28,college,male
+189,0,800,15,0.0,42,college,male
+190,0,1000,30,0.0,32,college,male
+191,0,1000,30,0.0,30,High School or Below,male
+192,0,1000,15,0.0,25,High School or Below,female
+193,0,1000,30,0.0,27,High School or Below,female
+194,0,800,15,0.0,21,college,male
+195,0,1000,30,0.0,24,college,male
+196,0,1000,30,0.0,29,college,male
+197,0,1000,15,0.0,40,college,male
+198,0,1000,30,0.0,29,High School or Below,male
+199,0,1000,30,0.0,29,college,male
+200,0,1000,15,0.0,30,college,male
+201,0,1000,30,0.0,26,High School or Below,female
+202,0,1000,15,0.0,36,High School or Below,male
+203,0,800,15,0.0,27,college,male
+204,0,1000,30,0.0,20,college,male
+205,0,1000,7,0.0,26,Bechalor,female
+206,0,1000,30,0.0,26,college,male
+207,0,1000,30,0.0,27,college,male
+208,0,300,7,0.0,23,High School or Below,male
+209,0,1000,30,0.0,39,High School or Below,male
+210,0,1000,15,0.0,27,High School or Below,male
+211,0,1000,30,0.0,30,High School or Below,male
+212,0,1000,30,0.0,33,High School or Below,female
+213,0,1000,30,0.0,27,High School or Below,male
+214,0,1000,30,0.0,35,High School or Below,male
+215,0,1000,30,0.0,29,college,female
+216,0,1000,15,0.0,50,High School or Below,male
+217,0,800,15,0.0,31,High School or Below,female
+218,0,1000,15,0.0,31,High School or Below,male
+219,0,1000,30,0.0,29,High School or Below,male
+220,0,1000,15,0.0,35,college,male
+221,0,1000,30,0.0,39,college,male
+222,0,1000,30,0.0,29,college,male
+223,0,1000,15,0.0,30,High School or Below,male
+224,0,1000,30,0.0,33,Bechalor,male
+225,0,1000,30,0.0,26,High School or Below,male
+226,0,1000,15,0.0,25,High School or Below,male
+227,0,800,15,0.0,37,Bechalor,male
+228,0,800,15,0.0,26,High School or Below,male
+229,0,800,15,0.0,26,college,male
+230,0,1000,15,0.0,27,college,male
+231,0,1000,7,0.0,34,college,female
+232,0,1000,30,0.0,37,college,male
+233,0,1000,30,0.0,36,High School or Below,male
+234,0,800,15,0.0,33,High School or Below,male
+235,0,1000,30,0.0,30,High School or Below,male
+236,0,1000,30,0.0,30,college,male
+237,0,800,15,0.0,36,High School or Below,male
+238,0,1000,15,0.0,29,college,male
+239,0,1000,15,0.0,36,High School or Below,male
+240,0,1000,30,0.0,32,High School or Below,male
+241,0,1000,15,0.0,29,High School or Below,female
+242,0,800,15,0.0,36,Bechalor,male
+243,0,800,15,0.0,30,High School or Below,female
+244,0,1000,7,0.0,31,college,male
+245,0,1000,30,0.0,19,High School or Below,female
+246,0,800,15,0.0,26,college,male
+247,0,800,15,0.0,34,High School or Below,male
+248,0,1000,30,0.0,35,High School or Below,male
+249,0,1000,15,0.0,35,Bechalor,female
+250,0,800,15,0.0,38,college,male
+251,0,1000,30,0.0,29,college,male
+252,0,1000,30,0.0,28,High School or Below,male
+253,0,500,7,0.0,22,High School or Below,male
+254,0,1000,30,0.0,32,college,male
+255,0,1000,30,0.0,31,college,male
+256,0,800,15,0.0,28,college,male
+257,0,1000,15,0.0,37,college,female
+258,0,1000,7,0.0,25,college,male
+259,0,1000,30,0.0,19,High School or Below,male
+260,0,800,15,0.0,51,college,male
+261,0,1000,15,0.0,29,High School or Below,male
+262,0,800,30,0.0,23,college,female
+263,0,1000,15,0.0,30,High School or Below,male
+264,0,800,15,0.0,23,college,male
+265,0,1000,15,0.0,34,Bechalor,female
+266,0,800,15,0.0,31,Bechalor,female
+267,0,1000,15,0.0,24,High School or Below,male
+268,0,1000,30,0.0,42,High School or Below,male
+269,0,800,30,0.0,40,college,female
+270,0,1000,30,0.0,29,High School or Below,male
+271,0,1000,30,0.0,32,college,female
+272,0,1000,30,0.0,28,college,male
+273,0,1000,30,0.0,35,High School or Below,male
+274,0,1000,30,0.0,30,Bechalor,male
+275,0,800,15,0.0,44,college,male
+276,0,800,15,0.0,37,High School or Below,male
+277,0,1000,30,0.0,31,college,male
+278,0,800,15,0.0,36,college,male
+279,0,800,30,0.0,31,college,male
+280,0,800,15,0.0,42,High School or Below,male
+281,0,1000,15,0.0,28,Bechalor,male
+282,0,1000,30,0.0,30,college,male
+283,0,1000,30,0.0,30,High School or Below,male
+284,0,1000,15,0.0,24,Bechalor,male
+285,0,1000,30,0.0,34,Bechalor,male
+286,0,1000,30,0.0,29,college,male
+287,0,1000,30,0.0,38,High School or Below,female
+288,0,1000,30,0.0,34,Bechalor,male
+289,0,800,15,0.0,28,High School or Below,male
+290,0,1000,15,0.0,30,college,female
+291,0,1000,30,0.0,41,High School or Below,male
+292,0,1000,30,0.0,29,college,male
+293,0,1000,30,0.0,37,High School or Below,male
+294,0,1000,30,0.0,36,Bechalor,male
+295,0,1000,30,0.0,30,college,female
+296,0,800,15,0.0,27,college,male
+297,0,1000,30,0.0,29,High School or Below,male
+298,0,1000,30,0.0,40,High School or Below,male
+299,0,1000,30,0.0,28,college,male
+300,1,1000,15,76.0,29,college,male
+301,1,1000,30,61.0,37,High School or Below,male
+302,1,1000,30,61.0,33,High School or Below,male
+303,1,800,15,76.0,27,college,male
+304,1,800,15,76.0,24,Bechalor,male
+305,1,1000,15,75.0,31,High School or Below,female
+306,1,800,15,60.0,28,college,male
+307,1,1000,30,60.0,40,High School or Below,male
+308,1,1000,30,60.0,33,college,male
+309,1,800,15,75.0,41,college,male
+310,1,1000,30,60.0,30,college,male
+311,1,800,15,75.0,26,High School or Below,female
+312,1,1000,30,60.0,27,High School or Below,male
+313,1,1000,30,60.0,20,High School or Below,male
+314,1,1000,30,60.0,24,college,male
+315,1,1000,15,60.0,26,High School or Below,male
+316,1,1000,30,60.0,30,High School or Below,male
+317,1,1000,15,75.0,29,High School or Below,male
+318,1,1000,30,60.0,22,Bechalor,male
+319,1,1000,15,75.0,24,Bechalor,male
+320,1,1000,30,60.0,25,college,male
+321,1,1000,30,60.0,28,High School or Below,male
+322,1,1000,30,60.0,37,college,male
+323,1,800,15,75.0,32,college,male
+324,1,1000,15,75.0,34,college,male
+325,1,1000,30,59.0,28,Bechalor,male
+326,1,800,15,74.0,35,Bechalor,male
+327,1,1000,30,29.0,27,college,male
+328,1,1000,30,59.0,24,High School or Below,female
+329,1,1000,30,59.0,44,Bechalor,male
+330,1,1000,15,44.0,31,college,male
+331,1,800,15,74.0,27,college,male
+332,1,1000,30,59.0,21,High School or Below,male
+333,1,1000,30,59.0,30,High School or Below,female
+334,1,1000,30,59.0,38,college,female
+335,1,1000,30,59.0,34,High School or Below,male
+336,1,1000,30,59.0,31,college,male
+337,1,1000,30,59.0,23,High School or Below,male
+338,1,1000,15,74.0,27,college,female
+339,1,1000,15,74.0,39,High School or Below,male
+340,1,1000,30,59.0,30,High School or Below,female
+341,1,1000,30,59.0,25,college,male
+342,1,1000,15,74.0,50,Master or Above,male
+343,1,1000,30,59.0,23,High School or Below,male
+344,1,800,15,74.0,38,Bechalor,male
+345,1,1000,30,59.0,27,High School or Below,male
+346,1,1000,30,29.0,31,High School or Below,male
+347,1,800,15,74.0,40,college,male
+348,1,1000,30,59.0,32,High School or Below,male
+349,1,800,15,74.0,29,college,male
+350,1,1000,30,59.0,26,High School or Below,male
+351,1,1000,15,74.0,25,college,male
+352,1,1000,30,59.0,35,High School or Below,male
+353,1,1000,30,59.0,41,High School or Below,male
+354,1,1000,30,59.0,37,High School or Below,male
+355,1,1000,15,59.0,34,college,male
+356,1,1000,30,59.0,45,High School or Below,male
+357,1,1000,30,59.0,26,Bechalor,male
+358,1,1000,30,59.0,32,college,male
+359,1,1000,30,59.0,28,High School or Below,male
+360,1,1000,30,59.0,34,college,male
+361,1,800,15,74.0,29,High School or Below,male
+362,1,1000,30,59.0,26,High School or Below,male
+363,1,1000,15,74.0,26,college,male
+364,1,800,15,74.0,22,college,male
+365,1,1000,30,59.0,27,High School or Below,female
+366,1,800,30,59.0,33,High School or Below,male
+367,1,800,15,74.0,28,Bechalor,male
+368,1,1000,30,59.0,24,college,male
+369,1,1000,30,59.0,37,High School or Below,male
+370,1,800,15,74.0,36,High School or Below,male
+371,1,1000,30,59.0,18,college,male
+372,1,800,15,74.0,25,High School or Below,male
+373,1,1000,15,74.0,40,High School or Below,male
+374,1,1000,30,59.0,29,college,male
+375,1,800,15,74.0,26,High School or Below,female
+376,1,1000,15,74.0,30,college,male
+377,1,1000,30,59.0,33,college,male
+378,1,1000,30,59.0,30,college,male
+379,1,1000,30,59.0,32,college,male
+380,1,1000,30,59.0,25,High School or Below,male
+381,1,800,15,74.0,35,High School or Below,male
+382,1,1000,15,74.0,30,Bechalor,male
+383,1,1000,30,59.0,26,High School or Below,male
+384,1,1000,30,59.0,29,High School or Below,male
+385,1,1000,30,29.0,26,High School or Below,male
+386,1,800,15,74.0,46,High School or Below,male
+387,1,1000,30,59.0,36,High School or Below,male
+388,1,1000,15,74.0,38,Bechalor,male
+389,1,1000,15,44.0,32,High School or Below,male
+390,1,1000,15,74.0,30,college,male
+391,1,800,15,74.0,35,High School or Below,male
+392,1,1000,30,59.0,29,college,female
+393,1,1000,30,29.0,26,college,male
+394,1,800,15,74.0,32,High School or Below,male
+395,1,1000,30,59.0,25,High School or Below,male
+396,1,1000,30,58.0,33,High School or Below,male
+397,1,800,15,73.0,39,college,male
+398,1,1000,30,28.0,28,college,male
+399,1,1000,30,58.0,26,college,male
+400,2,1000,30,2.0,26,college,male
+401,2,1000,15,4.0,28,college,male
+402,2,1000,30,13.0,39,college,male
+403,2,1000,15,5.0,29,Bechalor,male
+404,2,800,15,3.0,33,High School or Below,male
+405,2,1000,30,12.0,27,college,male
+406,2,800,15,2.0,34,college,male
+407,2,1000,30,27.0,26,High School or Below,male
+408,2,1000,30,44.0,28,High School or Below,male
+409,2,1000,15,5.0,32,Bechalor,male
+410,2,800,15,1.0,27,college,female
+411,2,1000,30,27.0,21,college,male
+412,2,800,15,2.0,39,college,male
+413,2,1000,15,1.0,38,college,male
+414,2,1000,30,2.0,36,High School or Below,female
+415,2,800,15,2.0,33,college,male
+416,2,1000,30,1.0,21,college,female
+417,2,800,15,3.0,25,High School or Below,male
+418,2,800,15,12.0,29,college,male
+419,2,1000,30,25.0,33,High School or Below,male
+420,2,1000,15,3.0,47,High School or Below,female
+421,2,1000,30,2.0,33,college,male
+422,2,800,15,4.0,23,High School or Below,male
+423,2,1000,15,2.0,24,college,male
+424,2,1000,30,1.0,27,High School or Below,male
+425,2,1000,30,24.0,32,Bechalor,male
+426,2,1000,30,1.0,33,college,male
+427,2,1000,30,2.0,27,college,female
+428,2,1000,30,2.0,35,High School or Below,male
+429,2,500,15,1.0,37,Bechalor,male
+430,2,800,15,3.0,28,Bechalor,male
+431,2,1000,15,4.0,33,college,male
+432,2,800,7,2.0,34,Bechalor,female
+433,2,1000,30,2.0,29,college,male
+434,2,1000,30,1.0,34,Bechalor,male
+435,2,1000,30,1.0,29,Bechalor,male
+436,2,1000,30,36.0,24,High School or Below,male
+437,2,1000,30,1.0,34,High School or Below,male
+438,2,1000,30,7.0,25,college,female
+439,2,1000,30,5.0,24,college,male
+440,2,1000,30,14.0,30,college,male
+441,2,1000,15,2.0,28,college,male
+442,2,1000,30,1.0,24,High School or Below,male
+443,2,1000,30,28.0,26,college,female
+444,2,1000,30,2.0,24,High School or Below,male
+445,2,1000,15,2.0,29,college,male
+446,2,1000,30,25.0,31,college,male
+447,2,1000,30,23.0,26,college,male
+448,2,1000,30,3.0,25,High School or Below,male
+449,2,1000,30,1.0,29,college,male
+450,2,1000,30,3.0,38,college,male
+451,2,800,15,4.0,41,college,male
+452,2,1000,15,3.0,26,High School or Below,male
+453,2,1000,30,3.0,26,High School or Below,male
+454,2,1000,30,6.0,35,High School or Below,male
+455,2,1000,15,2.0,37,college,male
+456,2,1000,30,38.0,25,college,male
+457,2,1000,30,19.0,24,college,male
+458,2,1000,30,2.0,34,college,male
+459,2,800,15,2.0,33,college,male
+460,2,800,15,2.0,38,Bechalor,male
+461,2,1000,30,7.0,38,High School or Below,male
+462,2,1000,30,5.0,26,college,male
+463,2,1000,15,4.0,37,Bechalor,male
+464,2,1000,30,1.0,42,High School or Below,female
+465,2,1000,30,1.0,49,High School or Below,female
+466,2,1000,30,4.0,26,High School or Below,male
+467,2,1000,15,1.0,41,High School or Below,male
+468,2,1000,30,4.0,38,High School or Below,male
+469,2,1000,30,52.0,26,High School or Below,male
+470,2,1000,15,2.0,32,High School or Below,male
+471,2,1000,30,24.0,27,Bechalor,male
+472,2,800,15,51.0,33,college,male
+473,2,1000,30,3.0,30,High School or Below,male
+474,2,800,15,2.0,26,High School or Below,female
+475,2,1000,30,29.0,35,college,female
+476,2,800,15,5.0,46,college,female
+477,2,1000,30,9.0,27,college,male
+478,2,1000,15,27.0,22,High School or Below,male
+479,2,1000,30,1.0,27,Bechalor,male
+480,2,1000,15,29.0,30,Bechalor,male
+481,2,1000,15,3.0,27,High School or Below,male
+482,2,800,15,1.0,47,college,male
+483,2,1000,30,7.0,30,college,male
+484,2,1000,30,4.0,26,college,male
+485,2,1000,30,3.0,38,High School or Below,male
+486,2,800,15,56.0,46,High School or Below,male
+487,2,1000,30,2.0,35,Bechalor,male
+488,2,1000,15,13.0,45,college,male
+489,2,1000,30,1.0,36,college,male
+490,2,1000,30,6.0,38,High School or Below,male
+491,2,1000,30,29.0,27,college,male
+492,2,1000,30,14.0,27,Bechalor,male
+493,2,1000,15,3.0,29,college,male
+494,2,1000,30,2.0,30,High School or Below,male
+495,2,1000,30,3.0,28,High School or Below,male
+496,2,1000,15,14.0,26,High School or Below,male
+497,2,800,15,3.0,30,college,male
+498,2,1000,30,1.0,38,college,female
+499,2,1000,30,8.0,28,High School or Below,male
