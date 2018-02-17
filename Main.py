@@ -10,6 +10,8 @@ def gen_data():
     df = pd.read_csv('clean_data.csv', header=0)
     df = df.dropna()
 
+    df = pd.concat([df[df.loan_status == 0], df[df.loan_status == 1]])
+
     train_data, test_data = train_test_split(df, test_size=.4)
 
     train_label = train_data['loan_status']
@@ -61,7 +63,7 @@ def main(argv):
 
     model_dir = tempfile.mkdtemp()
 
-    model = tf.estimator.LinearClassifier(model_dir=model_dir, feature_columns=my_feature_columns, n_classes=6)
+    model = tf.estimator.LinearClassifier(model_dir=model_dir, feature_columns=my_feature_columns, n_classes=2)
 
     model.train(input_fn=get_input_fn(x_train, y_train), steps=5000)
 
