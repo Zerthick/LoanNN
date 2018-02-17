@@ -1,40 +1,66 @@
+import tempfile
+
 import pandas as pd
 import tensorflow as tf
+from sklearn.model_selection import train_test_split
 
 
-def input_fn():
+def gen_data():
+    df = pd.read_csv('credit_train.csv', usecols=[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], header=0)
+    df = df.dropna()
+    df = df.sample(n=100)
+    df.columns = [c.replace(' ', '_') for c in df.columns]
+    df['Loan_Status'] = df['Loan_Status'].map({'Fully Paid': 1, 'Charged Off': 0})
+
+    train_data, test_data = train_test_split(df, test_size=0.4)
+
+    train_label = train_data['Loan_Status']
+    train_data = train_data.drop('Loan_Status', 1)
+
+    test_label = test_data['Loan_Status']
+    test_data = test_data.drop('Loan_Status', 1)
+
+    return train_data, train_label, test_data, test_label
 
 
-def main():
-    df = pd.read_csv('credit_train.csv', usecols=[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18])
-    l = pd.read_csv('credit_train.csv', usecols=[2])
+def get_input_fn(x_in, y_in):
+    input_fn = tf.estimator.inputs.pandas_input_fn(
+        x=x_in,
+        y=y_in,
+        shuffle=False
+    )
+    return input_fn
 
-    my_feature_columns = [tf.feature_column.numeric_column('loan_amt'),
-                          tf.feature_column.categorical_column_with_hash_bucket('term'),
-                          tf.feature_column.numeric_column('credit_score'),
-                          tf.feature_column.numeric_column('income'),
-                          tf.feature_column.categorical_column_with_hash_bucket('job_years'),
-                          tf.feature_column.categorical_column_with_hash_bucket('home_ownership'),
-                          tf.feature_column.categorical_column_with_hash_bucket('purpose'),
-                          tf.feature_column.numeric_column('monthly_debt'),
-                          tf.feature_column.numeric_column('credit_history'),
-                          tf.feature_column.numeric_column('delinquent_months'),
-                          tf.feature_column.numeric_column('num_accounts'),
-                          tf.feature_column.numeric_column('credit_probs'),
-                          tf.feature_column.numeric_column('credit_bal'),
-                          tf.feature_column.numeric_column('max_credit'),
-                          tf.feature_column.numeric_column('bankruptcies'),
-                          tf.feature_column.numeric_column('tax_liens')]
 
-    # Build 2 hidden layer DNN with 10, 10 units respectively.
-    classifier = tf.estimator.DNNClassifier(
-        feature_columns=my_feature_columns,
-        # Two hidden layers of 10 nodes each.
-        hidden_units=[10, 10],
-        # The model must choose between 3 classes.
-        n_classes=3)
+def main(argv):
+    x_train, y_train, x_test, y_test = gen_data()
+    my_feature_columns = [tf.feature_column.numeric_column('Current_Loan_Amount'),
+                          tf.feature_column.categorical_column_with_hash_bucket('Term', hash_bucket_size=10),
+                          tf.feature_column.numeric_column('Credit_Score'),
+                          tf.feature_column.numeric_column('Annual_Income'),
+                          tf.feature_column.categorical_column_with_hash_bucket('Years_in_current_job',
+                                                                                hash_bucket_size=10),
+                          tf.feature_column.categorical_column_with_hash_bucket('Home_Ownership', hash_bucket_size=10),
+                          tf.feature_column.categorical_column_with_hash_bucket('Purpose', hash_bucket_size=10),
+                          tf.feature_column.numeric_column('Monthly_Debt'),
+                          tf.feature_column.numeric_column('Years_of_Credit_History'),
+                          tf.feature_column.numeric_column('Months_since_last_delinquent'),
+                          tf.feature_column.numeric_column('Number_of_Open_Accounts'),
+                          tf.feature_column.numeric_column('Number_of_Credit_Problems'),
+                          tf.feature_column.numeric_column('Current_Credit_Balance'),
+                          tf.feature_column.numeric_column('Maximum_Open_Credit'),
+                          tf.feature_column.numeric_column('Bankruptcies'),
+                          tf.feature_column.numeric_column('Tax_Liens')]
 
-    classifier.train(input_fn=lambda input_fn(df.values, 100, True, 100))
+    model_dir = tempfile.mkdtemp()
+
+    model = tf.estimator.LinearClassifier(model_dir=model_dir, feature_columns=my_feature_columns)
+
+    model.train(input_fn=get_input_fn(x_train, y_train), steps=5000)
+
+    results = model.evaluate(input_fn=get_input_fn(x_test, y_test), steps=None)
+
+    print(results)
 
 
 if __name__ == '__main__':
