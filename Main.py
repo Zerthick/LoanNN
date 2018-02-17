@@ -1,3 +1,5 @@
+import tempfile
+
 import pandas as pd
 import tensorflow as tf
 from sklearn.metrics import confusion_matrix
@@ -57,7 +59,7 @@ def main(argv):
                           tf.feature_column.numeric_column('recoveries'),
                           tf.feature_column.numeric_column('collection_recovery_fee')]
 
-    model_dir = "model_dir"
+    model_dir = tempfile.mkdtemp()
 
     model = tf.estimator.LinearClassifier(model_dir=model_dir, feature_columns=my_feature_columns, n_classes=6)
 
@@ -75,6 +77,11 @@ def main(argv):
         predicted_labels.append(prediction['class_ids'][0])
 
     print(confusion_matrix(list(y_test), predicted_labels))
+
+    feature_spec = tf.feature_column.make_parse_example_spec(my_feature_columns)
+    export_input_fn = tf.estimator.export.build_parsing_serving_input_receiver_fn(feature_spec)
+
+    model.export_savedmodel(export_dir_base='ouput', serving_input_receiver_fn=export_input_fn)
 
 
 if __name__ == '__main__':
