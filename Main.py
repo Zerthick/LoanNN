@@ -1,13 +1,14 @@
 import pandas as pd
 import tensorflow as tf
+from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 
 
 def gen_data():
     df = pd.read_csv('clean_data.csv', header=0)
-    df = df.sample(n=100)
+    df = df.dropna()
 
-    train_data, test_data = train_test_split(df, test_size=0.4)
+    train_data, test_data = train_test_split(df, test_size=.4)
 
     train_label = train_data['loan_status']
     train_data = train_data.drop('loan_status', 1)
@@ -65,6 +66,15 @@ def main(argv):
     results = model.evaluate(input_fn=get_input_fn(x_test, y_test), steps=None)
 
     print(results)
+
+    predictions = model.predict(input_fn=get_input_fn(x_test, y_test))
+
+    predicted_labels = []
+
+    for prediction in predictions:
+        predicted_labels.append(prediction['class_ids'][0])
+
+    print(confusion_matrix(list(y_test), predicted_labels))
 
 
 if __name__ == '__main__':
